@@ -16,7 +16,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar código del bot
-COPY . .
+COPY bot_complete.py bot.py
 
 # Crear directorios necesarios
 RUN mkdir -p /app/downloads /app/cache
