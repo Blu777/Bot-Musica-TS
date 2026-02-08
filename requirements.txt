@@ -1,0 +1,5 @@
+ts3API==1.0.10
+yt-dlp>=2024.1.1
+pydub>=0.25.1
+requests>=2.31.0
+python-dotenv>=1.0.0
